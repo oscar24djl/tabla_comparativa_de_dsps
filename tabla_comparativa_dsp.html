@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparativa de DSPs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Comparativa de DSPs</h1>
+    <table>
+        <tr>
+            <th>DSP</th>
+            <th>Fabricante</th>
+            <th>Categoría</th>
+            <th>Frecuencia del reloj</th>
+            <th>Memoria (SRAM)</th>
+            <th>Bus</th>
+            <th>Interfaces y puertos</th>
+            <th>Entorno de desarrollo</th>
+            <th>Aplicaciones comunes</th>
+        </tr>
+        <tr>
+            <td>ADSP-21569KBCZ10</td>
+            <td>Analog Devices</td>
+            <td>Audio, Control Industrial</td>
+            <td>1 GHz</td>
+            <td>1 MB</td>
+            <td>64 bits</td>
+            <td>PCIe, Ethernet, USB</td>
+            <td>CrossCore Embedded Studio</td>
+            <td>Audio profesional, control de máquinas</td>
+        </tr>
+        <tr>
+            <td>TMS320C6418ZTSA500</td>
+            <td>Texas Instruments</td>
+            <td>Comunicaciones, Control</td>
+            <td>500 MHz</td>
+            <td>512 KB</td>
+            <td>32 bits</td>
+            <td>EMIF, Ethernet</td>
+            <td>Code Composer Studio</td>
+            <td>Control de telecomunicaciones</td>
+        </tr>
+        <tr>
+            <td>TMS320F28335ZJZA</td>
+            <td>Texas Instruments</td>
+            <td>Control de motores, Automotriz</td>
+            <td>150 MHz</td>
+            <td>68 KB</td>
+            <td>32 bits</td>
+            <td>SCI, SPI, CAN, I2C</td>
+            <td>Code Composer Studio</td>
+            <td>Control de motores, aplicaciones automotrices</td>
+        </tr>
+        <tr>
+            <td>ADAU1462WBCPZ300RL</td>
+            <td>Analog Devices</td>
+            <td>Audio</td>
+            <td>300 MHz</td>
+            <td>48 KB</td>
+            <td>32 bits</td>
+            <td>I2S, TDM</td>
+            <td>SigmaStudio</td>
+            <td>Audio digital, procesamiento de señales</td>
+        </tr>
+        <tr>
+            <td>TMS320C5533</td>
+            <td>Texas Instruments</td>
+            <td>Audio, Dispositivos portátiles</td>
+            <td>300 MHz</td>
+            <td>128 KB</td>
+            <td>16 bits</td>
+            <td>UART, USB, I2S</td>
+            <td>Code Composer Studio</td>
+            <td>Audio digital, sistemas portátiles</td>
+        </tr>
+        <tr>
+            <td>TMS320C6745</td>
+            <td>Texas Instruments</td>
+            <td>Aplicaciones de propósito general</td>
+            <td>375 MHz</td>
+            <td>128 KB</td>
+            <td>32 bits</td>
+            <td>UART, I2C, SPI, USB</td>
+            <td>Code Composer Studio</td>
+            <td>Procesamiento de señales genérico</td>
+        </tr>
+        <tr>
+            <td>TMS320C6678</td>
+            <td>Texas Instruments</td>
+            <td>Comunicaciones de alto rendimiento</td>
+            <td>1 GHz</td>
+            <td>1 MB</td>
+            <td>64 bits</td>
+            <td>PCIe, Ethernet, SRIO</td>
+            <td>Code Composer Studio</td>
+            <td>Comunicaciones, redes</td>
+        </tr>
+        <tr>
+            <td>ADSP-BF592KCPZ</td>
+            <td>Analog Devices</td>
+            <td>Propósito general, portátiles</td>
+            <td>400 MHz</td>
+            <td>32 KB</td>
+            <td>16 bits</td>
+            <td>UART, SPI, I2C</td>
+            <td>CrossCore Embedded Studio</td>
+            <td>Dispositivos embebidos portátiles</td>
+        </tr>
+        <tr>
+            <td>MSC8156</td>
+            <td>NXP</td>
+            <td>Comunicaciones de alta velocidad</td>
+            <td>1 GHz</td>
+            <td>256 KB</td>
+            <td>64 bits</td>
+            <td>Ethernet, DDR3, SRIO</td>
+            <td>CodeWarrior</td>
+            <td>Comunicaciones, procesamiento intensivo</td>
+        </tr>
+        <tr>
+            <td>TMS320C6727BZDH300</td>
+            <td>Texas Instruments</td>
+            <td>Audio de alta fidelidad</td>
+            <td>300 MHz</td>
+            <td>256 KB</td>
+            <td>32 bits</td>
+            <td>McASP, I2C, SPI</td>
+            <td>Code Composer Studio</td>
+            <td>Audio profesional, música</td>
+        </tr>
+        <tr>
+            <td>ADSP-SC589BBCZ-4B</td>
+            <td>Analog Devices</td>
+            <td>Audio y procesamiento de video</td>
+            <td>500 MHz</td>
+            <td>512 KB</td>
+            <td>32 bits</td>
+            <td>Ethernet, HDMI, USB</td>
+            <td>CrossCore Embedded Studio</td>
+            <td>Procesamiento de audio y video</td>
+        </tr>
+        <tr>
+            <td>CMX7241</td>
+            <td>CML Microcircuits</td>
+            <td>Comunicaciones de radio</td>
+            <td>32 MHz</td>
+            <td>32 KB</td>
+            <td>16 bits</td>
+            <td>UART, GPIO</td>
+            <td>PEPro</td>
+            <td>Comunicaciones de radio, transceptores</td>
+        </tr>
+    </table>
+</body>
+</html>
